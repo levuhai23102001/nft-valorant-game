@@ -96,7 +96,14 @@ function Sidebar(props) {
             >
               Rental Market
             </MenuItem>
-            {/* <MenuItem icon={<Icon icon="emojione:admission-tickets" fontSize='20px' />} onClick={() => { navigate("/listnfts") }}>My Listings</MenuItem> */}
+            <MenuItem
+              icon={<Icon icon="emojione:admission-tickets" fontSize="20px" />}
+              onClick={() => {
+                navigate("/listnfts");
+              }}
+            >
+              My Listings
+            </MenuItem>
             <MenuItem
               icon={<Icon icon="twemoji:framed-picture" fontSize="20px" />}
               onClick={() => {
@@ -113,7 +120,14 @@ function Sidebar(props) {
             >
               Rented NFTs
             </MenuItem>
-            {/* <MenuItem icon={<Icon icon="twemoji:hourglass-done" fontSize='20px' />} onClick={() => { navigate("/lentnfts") }}>Lent NFTs</MenuItem> */}
+            <MenuItem
+              icon={<Icon icon="twemoji:hourglass-done" fontSize="20px" />}
+              onClick={() => {
+                navigate("/lentnfts");
+              }}
+            >
+              Lent NFTs
+            </MenuItem>
           </SubMenu>
         </Menu>
       </SidebarContent>
